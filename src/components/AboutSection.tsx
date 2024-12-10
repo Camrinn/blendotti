@@ -35,7 +35,12 @@ const AboutSection: React.FC = () => {
 
         {/* Subheading */}
         <p className="text-sm lg:text-lg text-gray-400">
-          We are dedicated to providing the freshest cuts and the sharpest looks.{" "}
+        My name is Gabriel Bendotti or commonly known as "Blendotti". 
+        I am a Barber based in Philadelphia, Pennsylvania. 
+        I began cutting hair in the midst of the Covid-19 pandemic in January of 2021 and since then have found my passion in the art of Barbery. 
+        You can find me at The Men's Club Barbershop located in the Roxborough/Manayunk area of Philadelphia or at Bud’s Barbershop located in South Philly (Tuesdays only). 
+        I am really looking forward to my journey of creating amazing artwork and memories with all of my clients. 
+        Book me today to join me on the journey and become more than just a life long client..{" "}
           <span className="underline cursor-pointer">more details</span>
         </p>
       </div>

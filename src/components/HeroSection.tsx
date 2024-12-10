@@ -26,7 +26,7 @@ const HeroSection: React.FC = () => {
       <div
         className="flex-1 bg-cover bg-center relative"
         style={{
-          backgroundImage: "url('assets/aboutme.png')",
+          backgroundImage: "url('assets/haircut6.jpg')",
         }}
       >
         {/* Optional Gradient Overlay */}
