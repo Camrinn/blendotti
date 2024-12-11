@@ -16,7 +16,7 @@ const AboutSection: React.FC = () => {
         {/* Large Text Overlay */}
         <div className="absolute inset-0 flex mt-4items-center justify-center">
           <h2 className="text-4xl md:text-6xl lg:text-[10rem] uppercase font-extrabold tracking-wide opacity-10 text-white">
-            About Us
+            About Me
           </h2>
         </div>
       </div>
@@ -26,7 +26,7 @@ const AboutSection: React.FC = () => {
         {/* Title */}
         <div>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight text-center lg:text-left">
-            Learn More <br /> About Us
+            Learn More <br /> About Me
           </h1>
         </div>
 
