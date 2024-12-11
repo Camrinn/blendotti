@@ -22,16 +22,13 @@ const BookMe: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-b from-black via-gray-800 to-black text-white flex items-center justify-center overflow-hidden">
-      {/* Sidebar padding to account for the Navbar */}
-      <div className="w-48 lg:w-64 flex-shrink-0"></div>
-
+    <div id="book" className="h-screen w-screen bg-gradient-to-b from-black via-gray-800 to-black text-white flex items-center justify-center lg:pl-48 px-4">
       {/* Center Content */}
       <div className="flex flex-col items-center space-y-8">
         {/* Photo with Shadow */}
         <div
           ref={photoRef}
-          className="h-64 w-64 lg:h-72 lg:w-72 bg-cover bg-center rounded-full shadow-lg transform hover:scale-105 transition duration-300"
+          className="h-48 w-48 sm:h-64 sm:w-64 lg:h-72 lg:w-72 bg-cover bg-center rounded-full shadow-lg transform hover:scale-105 transition duration-300"
           style={{
             backgroundImage: "url('assets/haircut14.jpg')", // Replace with actual photo path
           }}

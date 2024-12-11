@@ -2,10 +2,7 @@ import React from "react";
 
 const ContactMe: React.FC = () => {
   return (
-    <div className="h-screen w-screen bg-black text-white flex items-center justify-center overflow-hidden">
-      {/* Sidebar padding to account for the Navbar */}
-      <div className="w-48 lg:w-64 flex-shrink-0"></div>
-
+    <div id="contact" className="h-screen w-screen bg-black text-white flex items-center justify-center lg:pl-48 px-4">
       {/* Contact Form */}
       <div className="flex flex-col items-center space-y-8 text-center px-8 lg:px-16">
         {/* Heading */}
